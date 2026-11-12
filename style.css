@@ -383,6 +383,50 @@ h2.section-title
     gap:20px;
   }
 }
+/* ---------- experience ---------- */
+#experience {
+  scroll-margin-top:84px;
+}
+.experience-grid {
+  display:grid;
+  grid-template-columns:minmax(0, 0.7fr) minmax(0, 1.3fr);
+  gap:60px;
+  align-items:start;
+}
+.experience-entry + .experience-entry {
+  border-top:1px solid var(--line);
+  margin-top:30px;
+  padding-top:30px;
+}
+.experience-entry h3 {
+  font-family:var(--font-display);
+  font-size:22px;
+  line-height:1.35;
+  font-weight:400;
+}
+.experience-entry p {
+  color:var(--muted);
+  font-size:15px;
+  line-height:1.75;
+  margin-top:12px;
+  max-width:66ch;
+}
+.experience-entry .experience-tech {
+  font-family:var(--font-mono);
+  font-size:12px;
+}
+.experience-tech span {
+  color:var(--accent);
+}
+.experience-entry .project-link {
+  margin-top:16px;
+}
+@media (max-width:860px) {
+  .nav-links { gap:16px; font-size:11px; }
+}
+@media (max-width:760px) {
+  .experience-grid { grid-template-columns:1fr; gap:32px; }
+}
 /* ---------- skills ---------- */
 #skills {
   scroll-margin-top:84px;
