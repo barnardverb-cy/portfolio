@@ -15,10 +15,9 @@
 <header class="nav">
   <div class="wrap nav-inner">
     <div class="nav-mark">CY<span>.</span>VERBO</div>
-    <nav class="nav-links">
-
-      <a href="#work">Work</a>
-      <a href="#ai-projects">AI projects</a>
+    <nav class="nav-links" aria-label="Main navigation">
+      <a href="#home">Home</a>
+      <a href="#projects">Projects</a>
       <a href="#skills">Skills</a>
       <a href="#thesis">Thesis</a>
       <a href="#faq">FAQ</a>
@@ -28,14 +27,14 @@
 </header>
  
 <!-- HERO -->
-<section class="hero" style="border-top:none; padding-top:140px;">
+<section id="home" class="hero" style="border-top:none;">
   <div class="wrap hero-grid">
     <div>
       <span class="eyebrow"><span class="dot"></span>Open to work</span>
       <h1 class="headline">Interfaces built with care, <em>shipped</em> with purpose.</h1>
-      <p class="hero-sub">I'm <b>Cy Bernadine Verbo</b>, a web developer based in Manila. I build responsive, role-based web applications with React and Supabase — currently a graduating Computer Engineering Technology student at TUP Manila.</p>
+      <p class="hero-sub">I'm <b>Cy Bernadine Verbo</b>, a web developer based in Manila and a Computer Engineering Technology graduate of TUP Manila, <b>Magna Cum Laude</b>. I build responsive, role-based web applications with React and Supabase.</p>
       <div class="hero-ctas">
-        <a href="#work" class="btn btn-primary">View my work</a>
+        <a href="#projects" class="btn btn-primary">View my projects</a>
         <a href="./assets/Resume_CyBernadineVerbo.pdf" class="btn btn-ghost" download>Download resume</a>
       </div>
       <div class="hero-links">
@@ -51,6 +50,142 @@
   </div>
 </section>
  
+<!-- PROJECTS -->
+<section id="projects" aria-labelledby="projects-title">
+  <div class="wrap">
+    <h2 id="projects-title" class="section-title">Projects</h2>
+
+    <div id="internship-builds" class="project-group" role="group" aria-labelledby="internship-builds-title">
+      <h3 id="internship-builds-title" class="project-group-title">Internship/School Builds</h3>
+
+      <article class="project-row project-build-row">
+        <a class="project-thumb" href="https://stssi-membership-website.vercel.app/" target="_blank" rel="noopener">
+          <img src="./assets/stssi.png" alt="STSSI Member Incentive Program interface">
+        </a>
+        <div>
+          <h4 class="project-name">STSSI Member Incentive Program</h4>
+          <p class="project-desc">A membership app for STSSI customers with tiered rewards, an e-wallet balance, and a spin-the-wheel mini-game for redeeming discounts and vouchers.</p>
+          <div class="project-tech">React.js · Supabase · Vercel</div>
+        </div>
+        <a class="project-link" href="https://stssi-membership-website.vercel.app/" target="_blank" rel="noopener">Live demo ↗</a>
+      </article>
+
+      <article class="project-row project-build-row">
+        <a class="project-thumb" href="https://simp-project-tan.vercel.app/" target="_blank" rel="noopener">
+          <img src="./assets/simp.png" alt="SIMP installers platform interface">
+        </a>
+        <div>
+          <h4 class="project-name">SIMP — Installers Platform</h4>
+          <p class="project-desc">A hiring platform connecting technicians and installers across the Philippines with clients — post a job, browse listings, and manage the whole flow with role-based logins.</p>
+          <div class="project-tech">React.js · Supabase · Vercel</div>
+        </div>
+        <a class="project-link" href="https://simp-project-tan.vercel.app/" target="_blank" rel="noopener">Live demo ↗</a>
+      </article>
+
+      <article class="project-row project-build-row">
+        <a class="project-thumb mobile-shot" href="https://bucolic-pudding-173f6b.netlify.app/" target="_blank" rel="noopener">
+          <img src="./assets/tupAssessment.jpg" alt="BET-CpET Curriculum Self-Assessment interface">
+        </a>
+        <div>
+          <h4 class="project-name">BET-CpET Self-Assessment</h4>
+          <p class="project-desc">A mobile-friendly enlistment and self-assessment site for incoming BET-CpET students at TUP Manila, built with a college team.</p>
+          <div class="project-tech">HTML5 · CSS3 · PHP</div>
+        </div>
+        <a class="project-link" href="https://bucolic-pudding-173f6b.netlify.app/" target="_blank" rel="noopener">Live demo ↗</a>
+      </article>
+
+    </div>
+
+    <div id="personal-builds" class="project-group" role="group" aria-labelledby="personal-builds-title">
+      <h3 id="personal-builds-title" class="project-group-title">Personal Builds</h3>
+
+      <article class="project-row project-build-row">
+        <a class="project-thumb" href="https://polapbycy.netlify.app/" target="_blank" rel="noopener">
+          <img src="./assets/polap.png" alt="Polap polaroid photo app interface">
+        </a>
+        <div>
+          <h4 class="project-name">Polap</h4>
+          <p class="project-desc">A playful, Polaroid-styled photo booth that captures a photo straight from your browser camera and saves it in three easy steps.</p>
+          <div class="project-tech">HTML5 · CSS3 · TypeScript · Netlify</div>
+        </div>
+        <a class="project-link" href="https://polapbycy.netlify.app/" target="_blank" rel="noopener">Live demo ↗</a>
+      </article>
+
+      <article class="project-row project-build-row">
+        <a class="project-thumb" href="https://thebrogram30daysworkoutprogrambycy.netlify.app/" target="_blank" rel="noopener">
+          <img src="./assets/brogram.png" alt="The Brogram 30-day workout program interface">
+        </a>
+        <div>
+          <h4 class="project-name">The Brogram</h4>
+          <p class="project-desc">A 30-day "bro split" training plan — push, pull, legs, repeat — with daily workouts, tempo and weight guidance, and day-by-day progress tracking.</p>
+          <div class="project-tech">HTML5 · CSS3 · JavaScript · Netlify</div>
+        </div>
+        <a class="project-link" href="https://thebrogram30daysworkoutprogrambycy.netlify.app/" target="_blank" rel="noopener">Live demo ↗</a>
+      </article>
+
+      <article class="project-row project-build-row">
+        <a class="project-thumb" href="https://todo-app-zeta-six-15.vercel.app" target="_blank" rel="noopener">
+          <img src="./assets/todoLists.png" alt="Lists Adventure Time themed to-do app interface">
+        </a>
+        <div>
+          <h4 class="project-name">Lists — Adventure To-Do</h4>
+          <p class="project-desc">A playful, cross-device to-do list themed after Adventure Time — authenticated task lists with Google sign-in that sync everywhere you go.</p>
+          <div class="project-tech">React.js · Supabase · Vercel</div>
+        </div>
+        <a class="project-link" href="https://todo-app-zeta-six-15.vercel.app" target="_blank" rel="noopener">Live demo ↗</a>
+      </article>
+
+    </div>
+
+    <div id="ai-projects" class="project-group" role="group" aria-labelledby="ai-projects-title">
+      <h3 id="ai-projects-title" class="project-group-title">AI Builds</h3>
+
+      <p class="project-desc">Two browser games and a small-shop inventory app, made with the help of AI.</p>
+
+    <article class="project-row project-build-row ai-project-row" aria-labelledby="pest-patrol-title">
+      <a class="project-thumb" href="https://pest-patrol.vercel.app" target="_blank" rel="noopener" aria-label="Play Pest Patrol">
+        <img src="./assets/pest-patrol.webp" alt="Pest Patrol gameplay with mosquitoes in a sari-sari store, score and countdown timer" width="1000" height="594" loading="lazy" decoding="async">
+      </a>
+      <div>
+        <h4 id="pest-patrol-title" class="project-name">Pest Patrol</h4>
+        <p class="project-desc">A point-and-click arcade game set in a sari-sari store. Shoo mosquitoes in a 60-second high-score run, with size-based scoring, sound effects and a play-again loop.</p>
+        <div class="project-tech">HTML · CSS · JavaScript · Canvas · Web Audio · Vercel</div>
+        <p class="ai-project-note">Best played on a computer.</p>
+      </div>
+      <a class="project-link" href="https://pest-patrol.vercel.app" target="_blank" rel="noopener" aria-label="Play game: Pest Patrol">Play game ↗</a>
+    </article>
+
+    <article class="project-row project-build-row ai-project-row" aria-labelledby="night-shift-title">
+      <a class="project-thumb" href="https://night-shift-flax.vercel.app" target="_blank" rel="noopener" aria-label="Play Night Shift">
+        <img src="./assets/night-shift.webp" alt="Night Shift first-person maze gameplay with a cleaning drone in a dark office corridor" width="1000" height="540" loading="lazy" decoding="async">
+      </a>
+      <div>
+        <h4 id="night-shift-title" class="project-name">Night Shift</h4>
+        <p class="project-desc">A retro first-person maze shooter built with canvas raycasting. Navigate a dark office as a security robot and clear eight malfunctioning cleaning drones before your battery or the four-minute timer runs out.</p>
+        <div class="project-tech">HTML · CSS · JavaScript · Canvas raycasting · Web Audio · Vercel</div>
+        <p class="ai-project-note">Keyboard and mouse required.</p>
+      </div>
+      <a class="project-link" href="https://night-shift-flax.vercel.app" target="_blank" rel="noopener" aria-label="Play game: Night Shift">Play game ↗</a>
+    </article>
+
+    <article class="project-row project-build-row ai-project-row" aria-labelledby="inventory-system-title">
+      <a class="project-thumb" href="https://inventory-system-ashy-psi.vercel.app" target="_blank" rel="noopener" aria-label="Open Inventory System sign-in page">
+        <img src="./assets/inventory-dashboard.webp" alt="Inventory System dashboard illustration showing low stock, sales, top sellers and stock movements" width="1035" height="980" loading="lazy" decoding="async">
+      </a>
+      <div>
+        <h4 id="inventory-system-title" class="project-name">Inventory System</h4>
+        <p class="project-desc">A stock tracker for a small shop, with owner and staff roles, product management, low-stock flags and a permanent history of stock movements. Supabase enforces access rules and keeps quantity updates and movement records together.</p>
+        <div class="project-tech">HTML · CSS · JavaScript · Supabase Auth · PostgreSQL · RLS · Vercel</div>
+        <p class="ai-project-note">Account required; no public sign-up. Preview uses sample data.</p>
+      </div>
+      <a class="project-link" href="https://inventory-system-ashy-psi.vercel.app" target="_blank" rel="noopener" aria-label="View app: Inventory System (sign-in required)">View app ↗</a>
+    </article>
+
+    </div>
+
+  </div>
+</section>
+
 <!-- SKILLS -->
 <section id="skills" aria-labelledby="skills-title">
   <div class="wrap">
@@ -111,167 +246,13 @@
     </div>
   </div>
 </section>
- 
-<!-- PROJECTS -->
-<section id="work">
-  <div class="wrap">
-    <div class="reveal" style="margin-bottom:20px;">
-      <span class="section-label">Selected work</span>
-      <h2 class="section-title">Internship builds and self-directed projects.</h2>
-    </div>
- 
-    <div class="reveal">
-      <div class="project-row">
-        <a class="project-thumb" href="https://stssi-membership-website.vercel.app/" target="_blank" rel="noopener">
-          <img src="./assets/stssi.png" alt="STSSI Member Incentive Program interface">
-        </a>
-        <span class="project-index">01</span>
-        <div>
-          <div class="project-name">STSSI Member Incentive Program</div>
-          <p class="project-desc">A membership app for STSSI customers with tiered rewards, an e-wallet balance, and a spin-the-wheel mini-game for redeeming discounts and vouchers.</p>
-          <div class="project-tech">React.js · Supabase · Vercel</div>
-        </div>
-        <a class="project-link" href="https://stssi-membership-website.vercel.app/" target="_blank" rel="noopener">Live demo ↗</a>
-      </div>
- 
-      <div class="project-row">
-        <a class="project-thumb" href="https://simp-project-tan.vercel.app/" target="_blank" rel="noopener">
-          <img src="./assets/simp.png" alt="SIMP installers platform interface">
-        </a>
-        <span class="project-index">02</span>
-        <div>
-          <div class="project-name">SIMP — Installers Platform</div>
-          <p class="project-desc">A hiring platform connecting technicians and installers across the Philippines with clients — post a job, browse listings, and manage the whole flow with role-based logins.</p>
-          <div class="project-tech">React.js · Supabase · Vercel</div>
-        </div>
-        <a class="project-link" href="https://simp-project-tan.vercel.app/" target="_blank" rel="noopener">Live demo ↗</a>
-      </div>
- 
-      <div class="project-row">
-        <a class="project-thumb" href="https://polapbycy.netlify.app/" target="_blank" rel="noopener">
-          <img src="./assets/polap.png" alt="Polap polaroid photo app interface">
-        </a>
-        <span class="project-index">03</span>
-        <div>
-          <div class="project-name">Polap</div>
-          <p class="project-desc">A playful, Polaroid-styled photo booth that captures a photo straight from your browser camera and saves it in three easy steps.</p>
-          <div class="project-tech">HTML5 · CSS3 · TypeScript · Netlify</div>
-        </div>
-        <a class="project-link" href="https://polapbycy.netlify.app/" target="_blank" rel="noopener">Live demo ↗</a>
-      </div>
- 
-      <div class="project-row">
-        <a class="project-thumb" href="https://thebrogram30daysworkoutprogrambycy.netlify.app/" target="_blank" rel="noopener">
-          <img src="./assets/brogram.png" alt="The Brogram 30-day workout program interface">
-        </a>
-        <span class="project-index">04</span>
-        <div>
-          <div class="project-name">The Brogram</div>
-          <p class="project-desc">A 30-day "bro split" training plan — push, pull, legs, repeat — with daily workouts, tempo and weight guidance, and day-by-day progress tracking.</p>
-          <div class="project-tech">HTML5 · CSS3 · JavaScript · Netlify</div>
-        </div>
-        <a class="project-link" href="https://thebrogram30daysworkoutprogrambycy.netlify.app/" target="_blank" rel="noopener">Live demo ↗</a>
-      </div>
- 
-      <div class="project-row">
-        <a class="project-thumb mobile-shot" href="https://bucolic-pudding-173f6b.netlify.app/" target="_blank" rel="noopener">
-          <img src="./assets/tupAssessment.jpg" alt="BET-CpET Curriculum Self-Assessment interface">
-        </a>
-        <span class="project-index">05</span>
-        <div>
-          <div class="project-name">BET-CpET Self-Assessment</div>
-          <p class="project-desc">A mobile-friendly enlistment and self-assessment site for incoming BET-CpET students at TUP Manila, built with a college team.</p>
-          <div class="project-tech">HTML5 · CSS3 · PHP</div>
-        </div>
-        <a class="project-link" href="https://bucolic-pudding-173f6b.netlify.app/" target="_blank" rel="noopener">Live demo ↗</a>
-      </div>
-
-      <div class="project-row">
-        <a class="project-thumb" href="https://load-fitness.vercel.app/" target="_blank" rel="noopener">
-          <img src="./assets/load.png" alt="Load progressive overload tracker interface">
-        </a>
-        <span class="project-index">06</span>
-        <div>
-          <div class="project-name">Load</div>
-          <p class="project-desc">A fitness tracker that logs every set and auto-calculates progressive overload — so you always know exactly when to add a rep or bump the weight, without a spreadsheet.</p>
-          <div class="project-tech">React.js · Supabase · Vercel</div>
-        </div>
-        <a class="project-link" href="https://load-fitness.vercel.app/" target="_blank" rel="noopener">Live demo ↗</a>
-      </div>
-
-      <div class="project-row">
-        <a class="project-thumb" href="https://todo-app-zeta-six-15.vercel.app" target="_blank" rel="noopener">
-          <img src="./assets/todoLists.png" alt="Lists Adventure Time themed to-do app interface">
-        </a>
-        <span class="project-index">07</span>
-        <div>
-          <div class="project-name">Lists — Adventure To-Do</div>
-          <p class="project-desc">A playful, cross-device to-do list themed after Adventure Time — authenticated task lists with Google sign-in that sync everywhere you go.</p>
-          <div class="project-tech">React.js · Supabase · Vercel</div>
-        </div>
-        <a class="project-link" href="https://todo-app-zeta-six-15.vercel.app" target="_blank" rel="noopener">Live demo ↗</a>
-      </div>
-
-      <p class="also-line">Also maintained production WordPress and Shopify sites during my internship — content updates, layout fixes, and ongoing troubleshooting for live client stores.</p>
-    </div>
-  </div>
-</section>
- 
-<!-- AI-ASSISTED PROJECTS -->
-<section id="ai-projects" aria-labelledby="ai-projects-title">
-  <div class="wrap">
-    <div class="ai-projects-intro">
-      <h2 id="ai-projects-title" class="section-title">Projects I made with the help of AI</h2>
-      <p>Two browser games and a small-shop inventory app, built with AI assistance as part of Vibe Coding Foundations — from planning and debugging to testing and deployment.</p>
-    </div>
-
-    <article class="project-row ai-project-row" aria-labelledby="pest-patrol-title">
-      <a class="project-thumb" href="https://pest-patrol.vercel.app" target="_blank" rel="noopener" aria-label="Play Pest Patrol">
-        <img src="./assets/pest-patrol.webp" alt="Pest Patrol gameplay with mosquitoes in a sari-sari store, score and countdown timer" width="1000" height="594" loading="lazy" decoding="async">
-      </a>
-      <div>
-        <h3 id="pest-patrol-title" class="project-name">Pest Patrol</h3>
-        <p class="project-desc">A point-and-click arcade game set in a sari-sari store. Shoo mosquitoes in a 60-second high-score run, with size-based scoring, sound effects and a play-again loop.</p>
-        <div class="project-tech">HTML · CSS · JavaScript · Canvas · Web Audio · Vercel</div>
-        <p class="ai-project-note">Best played on a computer.</p>
-      </div>
-      <a class="project-link" href="https://pest-patrol.vercel.app" target="_blank" rel="noopener" aria-label="Play game: Pest Patrol">Play game ↗</a>
-    </article>
-
-    <article class="project-row ai-project-row" aria-labelledby="night-shift-title">
-      <a class="project-thumb" href="https://night-shift-flax.vercel.app" target="_blank" rel="noopener" aria-label="Play Night Shift">
-        <img src="./assets/night-shift.webp" alt="Night Shift first-person maze gameplay with a cleaning drone in a dark office corridor" width="1000" height="540" loading="lazy" decoding="async">
-      </a>
-      <div>
-        <h3 id="night-shift-title" class="project-name">Night Shift</h3>
-        <p class="project-desc">A retro first-person maze shooter built with canvas raycasting. Navigate a dark office as a security robot and clear eight malfunctioning cleaning drones before your battery or the four-minute timer runs out.</p>
-        <div class="project-tech">HTML · CSS · JavaScript · Canvas raycasting · Web Audio · Vercel</div>
-        <p class="ai-project-note">Keyboard and mouse required.</p>
-      </div>
-      <a class="project-link" href="https://night-shift-flax.vercel.app" target="_blank" rel="noopener" aria-label="Play game: Night Shift">Play game ↗</a>
-    </article>
-
-    <article class="project-row ai-project-row" aria-labelledby="inventory-system-title">
-      <a class="project-thumb" href="https://inventory-system-ashy-psi.vercel.app" target="_blank" rel="noopener" aria-label="Open Inventory System sign-in page">
-        <img src="./assets/inventory-dashboard.webp" alt="Inventory System dashboard illustration showing low stock, sales, top sellers and stock movements" width="1035" height="980" loading="lazy" decoding="async">
-      </a>
-      <div>
-        <h3 id="inventory-system-title" class="project-name">Inventory System</h3>
-        <p class="project-desc">A stock tracker for a small shop, with owner and staff roles, product management, low-stock flags and a permanent history of stock movements. Supabase enforces access rules and keeps quantity updates and movement records together.</p>
-        <div class="project-tech">HTML · CSS · JavaScript · Supabase Auth · PostgreSQL · RLS · Vercel</div>
-        <p class="ai-project-note">Account required; no public sign-up. Preview uses sample data.</p>
-      </div>
-      <a class="project-link" href="https://inventory-system-ashy-psi.vercel.app" target="_blank" rel="noopener" aria-label="View app: Inventory System (sign-in required)">View app ↗</a>
-    </article>
-  </div>
-</section>
 
 <!-- THESIS / SIGNATURE -->
 <section id="thesis">
   <div class="wrap thesis-grid">
     <div class="reveal">
-      <span class="section-label">Right now</span>
-      <h2 class="section-title">Thesis defended. Just waiting on graduation.</h2>
+      <span class="section-label">Thesis</span>
+      <h2 class="section-title">TimeWorth — Smart Attendance System</h2>
       <a class="project-thumb" href="https://time-worth-gk3a.vercel.app/" target="_blank" rel="noopener" style="display:block; margin-top:26px;">
         <img src="./assets/timeWorth.png" alt="TimeWorth smart attendance system interface">
         <span class="badge">Thesis</span>
@@ -292,7 +273,7 @@
           <div><span class="prompt">$</span> whoami --school</div>
           <div class="out"><b>Technological University of the Philippines</b> — Manila<br>B.E.T. Computer Engineering Technology, 2022–2026</div>
           <div><span class="prompt">$</span> echo $STATUS</div>
-          <div class="out">Waiting on <b>graduation</b> · Aug 2026 · Magna Cum Laude<span class="cursor"></span></div>
+          <div class="out"><b>Graduated Magna Cum Laude</b> · August 2026<span class="cursor"></span></div>
         </div>
       </div>
     </div>
@@ -321,7 +302,7 @@
           <span class="q-text">Are you available now?</span>
           <span class="plus">+</span>
         </button>
-        <div class="faq-a"><p>Yes — my thesis is already defended and built, so I'm just waiting on graduation in August 2026. That means I'm fully available for internships, part-time, or junior full-time roles right now.</p></div>
+        <div class="faq-a"><p>Yes — I graduated Magna Cum Laude from TUP Manila with a degree in Computer Engineering Technology. I'm available for internships, part-time, or junior full-time roles.</p></div>
       </div>
       <div class="faq-item">
         <button class="faq-q">
