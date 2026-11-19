@@ -674,6 +674,56 @@ h2.section-title
   color:var(--muted-dim);
   font-size:14px;
 }
+/* ---------- AI-assisted projects ---------- */
+#ai-projects {
+  scroll-margin-top:84px;
+}
+.ai-projects-intro {
+  margin-bottom:32px;
+}
+.ai-projects-intro p {
+  color:var(--muted);
+  max-width:66ch;
+  margin-top:18px;
+}
+.ai-project-row {
+  grid-template-columns:260px minmax(0, 1fr) auto;
+}
+.ai-project-row .project-thumb {
+  display:block;
+}
+.ai-project-row .project-thumb img {
+  object-fit:contain;
+  object-position:center;
+  filter:none;
+}
+.ai-project-row .project-tech,
+.ai-project-note {
+  color:var(--muted);
+}
+.ai-project-note {
+  font-size:12px;
+  margin-top:12px;
+}
+@media (max-width:960px) {
+  .ai-project-row {
+    grid-template-columns:220px minmax(0, 1fr);
+    gap:18px 24px;
+  }
+  .ai-project-row > .project-link {
+    grid-column:2;
+    justify-self:start;
+  }
+}
+@media (max-width:760px) {
+  .ai-project-row {
+    grid-template-columns:minmax(0, 1fr);
+    gap:14px;
+  }
+  .ai-project-row > .project-link {
+    grid-column:1;
+  }
+}
 /* ---------- thesis / signature terminal ---------- */
 .terminal
 {
