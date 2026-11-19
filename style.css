@@ -404,6 +404,19 @@ h2.section-title
   line-height:1.35;
   font-weight:400;
 }
+.experience-preview {
+  display:block;
+  margin-top:20px;
+  border:1px solid var(--line);
+  border-radius:6px;
+  overflow:hidden;
+  background:var(--surface);
+}
+.experience-preview img {
+  display:block;
+  width:100%;
+  height:auto;
+}
 .experience-entry p {
   color:var(--muted);
   font-size:15px;
